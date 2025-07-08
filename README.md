@@ -125,4 +125,3 @@ The core components include:
 B.Tech in Electronics and Communication Engineering  
 Intern at SURE ProEd  
 Project: RTL + Verification of Memory Controller System  
-[GitHub Repository](https://github.com/obulsai/ram_system_design)
