@@ -22,7 +22,19 @@ The core components include:
 
 ## 🧩 Block Diagram
 
+![Block Diagram](https://github.com/obulsai/ram_system_design/blob/03c229263a367a4308a84fdf593c9a381e4834d2/block_diagram/block_diagram.png)
 
+---
+
+## 🔧 RTL Architecture
+
+![RTL Design](https://github.com/obulsai/ram_system_design/blob/e6b0fb37a7324e68e7fa48e721ac7e1419833f04/RTL_design/Sim1.png)
+
+---
+
+## 🖥️ Simulation Result
+
+![Simulation Output](https://github.com/obulsai/ram_system_design/blob/343fd6488ed3c9a5f75c835c846ec86181180b54/simulation_1/Sim1.png)
 
 ---
 
@@ -78,11 +90,11 @@ The core components include:
 
 ## ✅ Features
 
-- Frame-based data validation
-- Memory-mapped structure simulation
-- Controlled start/stop mechanism
-- Separate read and write logic
-- Counter-based flow tracking
+- Frame-based data validation  
+- Memory-mapped structure simulation  
+- Controlled start/stop mechanism  
+- Separate read and write logic  
+- Counter-based flow tracking  
 
 ---
 
@@ -91,8 +103,8 @@ The core components include:
 ### In Vivado:
 1. Create a new project.
 2. Add source files: `data_generator.v`, `data_checker.v`, `top_module.v`.
-3. Generate RAM IP (blk_mem_gen_0): 64x32-bit.
-4. Simulate using testbench or synthesize for FPGA.
+3. Generate RAM IP (`blk_mem_gen_0`): 64x32-bit.
+4. Simulate using a testbench or synthesize for FPGA.
 
 ### In Simulation:
 - Use `i_start_system` and `i_stop_system` as test stimuli.
@@ -101,14 +113,16 @@ The core components include:
 ---
 
 ## 📌 Future Enhancements
-- Add error injection to test checker robustness
-- Expand to multi-frame buffers
-- FPGA implementation with buttons/switches for start/stop
+- Add error injection to test checker robustness  
+- Expand to multi-frame buffers  
+- FPGA implementation with buttons/switches for start/stop  
 
 ---
-##👨‍🎓 Author
 
-T. Obul Sai
-B.Tech in Electronics and Communication Engineering
-Intern at SURE ProEd
-Project: RTL + Verification of Memory Controller System
+## 👨‍🎓 Author
+
+**T. Obul Sai**  
+B.Tech in Electronics and Communication Engineering  
+Intern at SURE ProEd  
+Project: RTL + Verification of Memory Controller System  
+[GitHub Repository](https://github.com/obulsai/ram_system_design)
